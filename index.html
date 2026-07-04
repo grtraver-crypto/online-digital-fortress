@@ -311,14 +311,18 @@
     <div class="section-inner audit-inner">
       <p class="section-eyebrow">Free resource</p>
       <h2 class="section-headline">Get the Digital Fortress Audit</h2>
-      <p class="section-subtext">Enter your email and the complete Digital Fortress self-audit will be delivered to your inbox through our email system.</p>
+      <p class="section-subtext">Enter your full name and email address and you'll get instant access to download the complete Digital Fortress Self-Audit.</p>
       <form class="audit-form" id="audit-form" name="audit-request" method="POST" action="/audit-thanks.html" data-netlify="true" netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="audit-request" />
         <p style="display:none"><label>Don't fill this out: <input name="bot-field" /></label></p>
+        <label for="fullname">Full name</label>
+        <div class="form-row" style="margin-bottom:14px">
+          <input type="text" id="fullname" name="name" placeholder="Your full name" required />
+        </div>
         <label for="email">Email address</label>
         <div class="form-row">
           <input type="email" id="email" name="email" placeholder="founder@example.com" required />
-          <button type="submit" class="btn btn-primary">Email Me the Audit</button>
+          <button type="submit" class="btn btn-primary">Get the Self-Audit</button>
         </div>
       </form>
     </div>
