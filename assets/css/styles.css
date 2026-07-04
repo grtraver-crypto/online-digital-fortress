@@ -1070,3 +1070,17 @@ transition:background .2s,color .2s,transform .15s;padding:0}
 .share-btn:hover{background:var(--accent-gold);color:#fff;transform:translateY(-2px)}
 .share-btn svg{width:20px;height:20px;fill:currentColor}
 .share-note{display:block;margin-top:14px;font-family:var(--font-sans);font-size:12px;letter-spacing:.06em;color:var(--accent-gold);min-height:1.2em}
+
+/* ===== Coming-soon popup ===== */
+.odf-modal-overlay{position:fixed;inset:0;background:rgba(26,26,24,.78);display:none;align-items:center;justify-content:center;z-index:2000;padding:24px}
+.odf-modal-overlay.open{display:flex}
+.odf-modal{background:var(--bg-cream);max-width:480px;width:100%;border-radius:var(--radius);border-top:4px solid var(--accent-gold);padding:40px 36px 32px;position:relative;text-align:center;box-shadow:0 24px 64px rgba(0,0,0,.45)}
+.odf-modal-close{position:absolute;top:10px;right:16px;font-size:26px;color:var(--text-muted);background:none;border:none;cursor:pointer;line-height:1}
+.odf-modal-close:hover{color:var(--text-dark)}
+.odf-modal-eyebrow{font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--accent-gold);margin-bottom:10px}
+.odf-modal h3{font-family:var(--font-serif);font-size:30px;line-height:1.2;color:var(--text-dark);margin-bottom:12px}
+.odf-modal p{font-size:16px;color:var(--text-mid);margin-bottom:22px}
+.odf-modal input[type=email]{width:100%;padding:13px 15px;border:1px solid var(--border-light);border-radius:var(--radius);font:inherit;background:var(--bg-white);margin-bottom:12px}
+.odf-modal .btn{width:100%}
+.odf-modal-fine{font-family:var(--font-sans);font-size:11px;color:var(--text-muted);margin-top:14px;margin-bottom:0}
+.odf-modal-success{display:none;font-family:var(--font-serif);font-size:19px;font-style:italic;color:var(--text-dark);padding:18px 0 6px}
