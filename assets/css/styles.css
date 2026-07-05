@@ -693,14 +693,22 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 
 /* 18. RISKY BUSINESS PAGE */
 .rb-hero {
-  background-color: var(--bg-dark);
-  min-height: 70vh;
+  background-color: var(--bg-cream);
+  min-height: 90vh;
   display: flex;
   align-items: center;
   padding: 80px 24px;
-  background-image: linear-gradient(rgba(26,26,24,0.75), rgba(26,26,24,0.75)), url('../images/courthouse-hallway.jpg');
+  background-image: linear-gradient(rgba(245,242,236,0.30), rgba(245,242,236,0.30)), url('../images/courthouse-hallway.jpg');
   background-size: cover;
   background-position: center;
+}
+.rb-hero .btn-outline-light {
+  border-color: var(--text-dark);
+  color: var(--text-dark);
+}
+.rb-hero .btn-outline-light:hover {
+  background: var(--text-dark);
+  color: var(--text-light);
 }
 .rb-hero-inner {
   max-width: var(--max-width);
@@ -711,13 +719,15 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   font-family: var(--font-serif);
   font-size: clamp(52px, 8vw, 96px);
   font-weight: 900;
-  color: var(--text-light);
+  color: var(--text-dark);
+  text-shadow: 0 1px 24px rgba(245,242,236,0.85);
   line-height: 1.0;
   margin-bottom: 24px;
 }
 .rb-subtext {
   font-size: 18px;
-  color: rgba(245,242,236,0.75);
+  color: var(--text-mid);
+  text-shadow: 0 1px 16px rgba(245,242,236,0.9);
   max-width: 640px;
   margin: 0 auto 36px;
   line-height: 1.75;
