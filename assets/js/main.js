@@ -64,6 +64,28 @@
   });
 
 
+  /* ── Audit form submission tracking ── */
+  var auditForm = document.getElementById('audit-form');
+  if (auditForm) {
+    auditForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var formData = new FormData(auditForm);
+      var body = new URLSearchParams(formData).toString();
+
+      fetch('/.netlify/functions/audit-submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: body
+      })
+        .then(function () {
+          window.location.href = '/audit-thanks.html';
+        })
+        .catch(function () {
+          window.location.href = '/audit-thanks.html';
+        });
+    });
+  }
+
   /* ── Coming-soon popup on Books.by order buttons ── */
   (function () {
     var modal = document.createElement('div');
