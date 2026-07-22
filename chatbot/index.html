@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Digital Fortress — Ask the Book</title>
+  <meta name="description" content="Ask questions about protecting your online digital business — answered solely from the book Online Digital Fortress by Greg R. Traver." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="page">
+
+    <!-- Header -->
+    <header class="site-header">
+      <img class="cover-logo" src="img/odf-cover.jpg" alt="Online Digital Fortress — book cover" />
+      <h1><span class="accent">Online Digital Fortress</span></h1>
+      <p>Stop Building a Business That Can Be Taken From You</p>
+    </header>
+    <div class="tagline-bar">Ask the book · Answers grounded solely in Greg R. Traver's Digital Fortress doctrine</div>
+
+    <!-- Chatbot -->
+    <section class="chat" aria-label="Digital Fortress chatbot">
+      <div class="chat-head">
+        <span class="dot" aria-hidden="true"></span>
+        <h2>The Fortress Assistant</h2>
+        <span class="sub">Online · Answers from the book</span>
+      </div>
+
+      <div class="chat-body" id="chat-body">
+        <!-- Suggested questions injected by JS -->
+        <div class="suggested-wrap">
+          <p class="suggested-label">Suggested questions I can help you find:</p>
+          <div class="suggested-grid" id="suggested-grid"></div>
+        </div>
+      </div>
+
+      <div class="chat-input">
+        <form id="chat-form" autocomplete="off">
+          <textarea id="chat-input" placeholder="Ask your own question about the Digital Fortress framework…" aria-label="Type your question"></textarea>
+          <button type="submit">Ask</button>
+        </form>
+        <p class="form-note">
+          Press <strong>Enter</strong> to send · <strong>Shift+Enter</strong> for a new line
+          <span class="sep">|</span>
+          Have a detailed question? <a href="#reader-form">Submit it to the author's team</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Reader question submission form -->
+    <section class="chat" id="reader-form" style="margin-top:26px;">
+      <div class="chat-head">
+        <span class="dot" aria-hidden="true"></span>
+        <h2>Submit Your Question</h2>
+        <span class="sub">For a fuller answer</span>
+      </div>
+      <div class="chat-body" style="max-height:none;">
+        <p style="margin-top:0;color:var(--fortress-text);line-height:1.6;">
+          Didn't find what you were looking for? Submit your question below and the
+          <strong>Online Digital Fortress</strong> team will respond with an answer
+          drawn from the book, including the chapter where you can read the full detail.
+        </p>
+
+        <form id="reader-submit-form" style="display:grid;gap:14px;margin-top:8px;">
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;">
+            <div>
+              <label for="r-name" style="display:block;font-size:13px;color:var(--fortress-muted);margin-bottom:5px;">Your name</label>
+              <input id="r-name" name="name" type="text" required
+                style="width:100%;padding:11px 13px;border-radius:10px;border:1px solid var(--fortress-border);background:#0c1426;color:var(--fortress-text);font-family:inherit;font-size:15px;outline:none;" />
+            </div>
+            <div>
+              <label for="r-email" style="display:block;font-size:13px;color:var(--fortress-muted);margin-bottom:5px;">Email</label>
+              <input id="r-email" name="email" type="email" required
+                style="width:100%;padding:11px 13px;border-radius:10px;border:1px solid var(--fortress-border);background:#0c1426;color:var(--fortress-text);font-family:inherit;font-size:15px;outline:none;" />
+            </div>
+          </div>
+
+          <div>
+            <label for="r-topic" style="display:block;font-size:13px;color:var(--fortress-muted);margin-bottom:5px;">Topic (optional)</label>
+            <select id="r-topic" name="topic"
+              style="width:100%;padding:11px 13px;border-radius:10px;border:1px solid var(--fortress-border);background:#0c1426;color:var(--fortress-text);font-family:inherit;font-size:15px;outline:none;">
+              <option value="">— Select a topic —</option>
+              <option>The Triple Shield Architecture</option>
+              <option>Creator Company</option>
+              <option>Management Company</option>
+              <option>Holding Company</option>
+              <option>Inter-Company Flow</option>
+              <option>Legal Formation &amp; Compliance</option>
+              <option>Financial Systems &amp; Tax</option>
+              <option>Liability Shield Maintenance</option>
+              <option>Licensing &amp; Monetization</option>
+              <option>Scaling Without Exposure</option>
+              <option>Exit &amp; Legacy</option>
+              <option>Faith &amp; Stewardship</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="r-question" style="display:block;font-size:13px;color:var(--fortress-muted);margin-bottom:5px;">Your question</label>
+            <textarea id="r-question" name="question" rows="5" required
+              placeholder="What would you like to know about protecting and structuring your online business?"
+              style="width:100%;padding:12px 14px;border-radius:10px;border:1px solid var(--fortress-border);background:#0c1426;color:var(--fortress-text);font-family:inherit;font-size:15px;line-height:1.5;outline:none;resize:vertical;"></textarea>
+          </div>
+
+          <div>
+            <button type="submit"
+              style="padding:13px 24px;border:none;border-radius:10px;background:linear-gradient(180deg,var(--fortress-accent-2),var(--fortress-accent));color:#1a1206;font-weight:700;font-family:inherit;font-size:14px;cursor:pointer;letter-spacing:0.3px;">
+              Submit Question
+            </button>
+          </div>
+
+          <p id="r-status" style="margin:0;font-size:14px;min-height:1.2em;"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div>
+        <span class="brand">Online Digital Fortress</span> — by Greg R. Traver · Published by Phoenix Rising Media LLC under license from Phoenix Star Holdings LLC
+      </div>
+      <div style="margin-top:8px;">
+        <a href="https://onlinedigitalfortress.com">onlinedigitalfortress.com</a>
+      </div>
+      <p class="disclaimer">
+        This assistant provides brief answers based solely on the book Online Digital Fortress for
+        informational and educational purposes. It does not constitute legal, tax, or financial
+        advice, and creates no advisory relationship. Always consult a licensed attorney and a
+        qualified CPA in your jurisdiction.
+      </p>
+    </footer>
+
+  </div>
+
+  <script src="js/chatbot.js"></script>
+</body>
+</html>
