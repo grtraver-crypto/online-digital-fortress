@@ -50,7 +50,8 @@ odf-backup/
 
 ## Notes
 
-- **External links** (Books.by, Google Fonts) require an internet connection to function.
+- **External links** (IngramSpark, Google Fonts) require an internet connection to function.
+- **Print-on-demand:** The book is printed on demand and sold via IngramSpark (Lightning Source), not warehoused or fulfilled directly by Phoenix Rising Media LLC.
 - **Privacy Policy, Terms of Service, and Contact** pages are placeholders — the live site returns 404 for these URLs at the time of backup.
 - **Audit form** shows a success message on submission (offline-functional).
 - All content, images, and graphics are owned by Greg R. Traver.

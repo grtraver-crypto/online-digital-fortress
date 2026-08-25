@@ -12,13 +12,13 @@ Exposure
 Who It's For
 Audit
 Get the Audit
-Order on Books.by
+Order on IngramSpark
 THE DEFENSIVE BLUEPRINT FOR SERIOUS DIGITAL FOUNDERS
 STOP BUILDING A BUSINESS THAT CAN BE TAKEN FROM YOU.
 
 Online Digital Fortress shows digital creators how to separate revenue, operations, and intellectual property into a structure designed for protection, lawful growth, and long-horizon legacy.
 
-Get Your Copy on Books.by
+Get Your Copy on IngramSpark
 Get the Digital Fortress Audit
 3
 
@@ -148,7 +148,7 @@ Enter your email and the complete Digital Fortress self-audit will be delivered 
 Email address
 Email Me the Audit
 GROWTH DOESN'T FIX BROKEN. IT BURIES YOU IN IT.
-Order on Books.by
+Order on IngramSpark
 Get the Audit
 
 DIGITAL FORTRESS
@@ -165,7 +165,7 @@ Audit
 
 Primary actions
 
-Order on Books.by
+Order on IngramSpark
 Request the audit
 Privacy Policy
 Terms of Service
