@@ -1,1 +1,8 @@
+# Canonicalize the domain to a single hop: any http:// or www. request
+# goes straight to https://onlinedigitalfortress.com/ in one redirect,
+# instead of bouncing through an intermediate step first.
+http://www.onlinedigitalfortress.com/*   https://onlinedigitalfortress.com/:splat   301!
+https://www.onlinedigitalfortress.com/*  https://onlinedigitalfortress.com/:splat   301!
+http://onlinedigitalfortress.com/*       https://onlinedigitalfortress.com/:splat   301!
+
 /bonus  /bonus.html  200
