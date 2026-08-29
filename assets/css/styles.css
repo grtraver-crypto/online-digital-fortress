@@ -1248,6 +1248,12 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   font-style: italic;
   font-weight: 400;
 }
+.story-cta-amazon {
+  margin: 4px 0 28px;
+}
+.story-cta-audit {
+  margin: 4px 0 28px;
+}
 .story-cta p {
   font-size: 17px;
   color: rgba(245,242,236,0.7);
