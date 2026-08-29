@@ -1272,6 +1272,13 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 }
 .story-cta-audit {
   margin: 4px 0 28px;
+  background-color: var(--bg-white);
+  color: var(--text-dark);
+  border-color: var(--bg-white);
+}
+.story-cta-audit:hover {
+  background-color: rgba(245,242,236,0.85);
+  border-color: rgba(245,242,236,0.85);
 }
 .story-cta p {
   font-size: 17px;
