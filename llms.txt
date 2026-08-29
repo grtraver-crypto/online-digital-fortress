@@ -1,0 +1,36 @@
+# Online Digital Fortress
+
+> Official site for *Online Digital Fortress: Building a Business That Outlasts Everything You Fear* by Greg R. Traver — a business book for digital entrepreneurs teaching the Triple Shield Architecture, a three-entity LLC framework (Creator Company, Management Company, Holding Company) for protecting revenue, operations, and intellectual property.
+
+## Core Pages
+- [Home](https://onlinedigitalfortress.com/): Overview of the book and the Triple Shield Architecture framework.
+- [About Greg R. Traver](https://onlinedigitalfortress.com/about.html): Background on the author.
+- [Risky Business](https://onlinedigitalfortress.com/risky-business.html): The legal and financial risks facing digital entrepreneurs that the book addresses.
+- [FAQ](https://onlinedigitalfortress.com/faq.html): Frequently asked questions about the book and the Triple Shield Architecture.
+- [Insights Blog](https://onlinedigitalfortress.com/insights.html): Index of all articles below.
+- [Contact](https://onlinedigitalfortress.com/contact.html): Contact page.
+
+## Triple Shield Architecture Framework
+- [The Triple Shield Architecture, Explained](https://onlinedigitalfortress.com/the-triple-shield-architecture-explained.html): Overview of the Creator/Management/Holding framework.
+- [Designing Your Creator Company](https://onlinedigitalfortress.com/designing-your-creator-company.html): The entity that holds the brand and creative work.
+- [The Management Company: Who Actually Runs Your Business](https://onlinedigitalfortress.com/building-your-management-company.html): The entity that runs day-to-day operations.
+- [Your Holding Company Is a Vault, Not a Bank Account](https://onlinedigitalfortress.com/your-holding-company-is-a-vault.html): The entity that owns and protects the assets.
+- [The Three Money Streams That Should Never Cross](https://onlinedigitalfortress.com/the-three-money-streams-that-should-never-cross.html): Why keeping revenue flows separate between entities matters.
+- [Wyoming vs. Delaware vs. Nevada: Where Should You Actually Form?](https://onlinedigitalfortress.com/wyoming-vs-delaware-vs-nevada.html): Comparing states for LLC formation.
+- [Three Companies, Three Tax Strategies](https://onlinedigitalfortress.com/three-companies-three-tax-strategies.html): Tax treatment differences across the three entities.
+- [The Foreign LLC Registration Trap, and How the Triple Shield Avoids It](https://onlinedigitalfortress.com/the-foreign-llc-registration-trap.html): Foreign qualification pitfalls.
+- [The Annual Ritual That Keeps Your Liability Shield Intact](https://onlinedigitalfortress.com/the-annual-liability-shield-maintenance-ritual.html): Maintenance steps that preserve liability protection.
+- [Turning Your IP Into a Royalty Stream](https://onlinedigitalfortress.com/turning-your-ip-into-a-royalty-stream.html): Licensing intellectual property between entities.
+- [Scaling Without Sprawling](https://onlinedigitalfortress.com/scaling-without-sprawling.html): Growing the business without breaking the structure.
+- [What Happens to Your Business When You're Ready to Leave It](https://onlinedigitalfortress.com/exit-and-legacy-planning-for-founders.html): Exit and legacy planning for founders.
+- [Why Your Single LLC Is a Liability Waiting to Happen](https://onlinedigitalfortress.com/why-your-single-llc-is-a-liability.html): The risks of running a business through a single LLC.
+
+## Cautionary Case Studies
+- [The Music Library — Stolen by a Handshake](https://onlinedigitalfortress.com/the-music-library-stolen-by-a-handshake.html): Case study on IP loss from informal agreements.
+- [The Million-Dollar Course That Had No Vault](https://onlinedigitalfortress.com/the-million-dollar-course-that-had-no-vault.html): Case study on unprotected digital assets.
+- [The Bestselling Author Who Lost the Back Door](https://onlinedigitalfortress.com/the-author-who-lost-the-back-door.html): Case study on losing control of platform access.
+- [The Retreat Brand That Died From a Slip-and-Fall](https://onlinedigitalfortress.com/the-retreat-brand-that-died-from-a-slip-and-fall.html): Case study on liability exposure from in-person events.
+
+## Optional
+- [Privacy Policy](https://onlinedigitalfortress.com/privacy-policy.html)
+- [Terms of Service](https://onlinedigitalfortress.com/terms-of-service.html)
