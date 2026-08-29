@@ -220,6 +220,8 @@ a:hover { text-decoration: underline; }
   resize: none;
   min-height: 52px;
   max-height: 120px;
+  overflow-y: auto;
+  field-sizing: content;
   padding: 12px 14px;
   border-radius: 10px;
   border: 1px solid var(--fortress-border);

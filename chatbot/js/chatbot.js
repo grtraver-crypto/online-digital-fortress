@@ -324,9 +324,10 @@
     wrap.appendChild(avatar);
     wrap.appendChild(bubble);
     body.appendChild(wrap);
-    requestAnimationFrame(function () {
-      body.scrollTop = body.scrollHeight;
-    });
+    // Setting scrollTop past the max is auto-clamped by the browser,
+    // so this scrolls to the bottom without reading scrollHeight
+    // (reading it here would force a synchronous layout recalculation).
+    body.scrollTop = 1e9;
     return bubble;
   }
 
@@ -414,22 +415,30 @@
     // Form submission
     const form = $("#chat-form");
     const input = $("#chat-input");
+    // Modern browsers handle textarea auto-grow with the
+    // "field-sizing: content" CSS rule and need no JS at all, which
+    // avoids forcing a layout recalculation on every keystroke.
+    var supportsFieldSizing = window.CSS && CSS.supports && CSS.supports("field-sizing", "content");
     form.addEventListener("submit", function (e) {
       e.preventDefault();
       const text = input.value.trim();
       if (!text) return;
       handleUserInput(text, false);
       input.value = "";
-      input.style.height = "auto";
+      if (!supportsFieldSizing) {
+        input.style.height = "auto";
+      }
     });
 
-    // Auto-grow textarea
-    input.addEventListener("input", function () {
-      requestAnimationFrame(function () {
-        input.style.height = "auto";
-        input.style.height = Math.min(input.scrollHeight, 120) + "px";
+    // Auto-grow textarea (fallback only, for older browsers)
+    if (!supportsFieldSizing) {
+      input.addEventListener("input", function () {
+        requestAnimationFrame(function () {
+          input.style.height = "auto";
+          input.style.height = Math.min(input.scrollHeight, 120) + "px";
+        });
       });
-    });
+    }
 
     // Enter to send (Shift+Enter for newline)
     input.addEventListener("keydown", function (e) {
