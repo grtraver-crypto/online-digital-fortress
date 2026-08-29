@@ -888,6 +888,18 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   gap: 14px;
   flex-wrap: wrap;
 }
+.cta-banner-actions .btn-outline-light {
+  background-color: var(--bg-white);
+  color: var(--text-dark);
+  border-color: var(--bg-white);
+}
+.cta-banner-actions .btn-outline-light:hover {
+  background-color: rgba(245,242,236,0.85);
+  border-color: rgba(245,242,236,0.85);
+}
+.cta-banner-audit {
+  margin-top: 18px;
+}
 
 /* 17. FOOTER */
 .footer {
@@ -1250,6 +1262,13 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 }
 .story-cta-amazon {
   margin: 4px 0 28px;
+  background-color: var(--bg-white);
+  color: var(--text-dark);
+  border-color: var(--bg-white);
+}
+.story-cta-amazon:hover {
+  background-color: rgba(245,242,236,0.85);
+  border-color: rgba(245,242,236,0.85);
 }
 .story-cta-audit {
   margin: 4px 0 28px;
