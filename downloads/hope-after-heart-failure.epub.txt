@@ -1,3 +1,0 @@
-This file is a placeholder for the requested EPUB export.
-The EPUB source package has been prepared under website-master/downloads/epub_source/.
-To finish the actual .epub archive, install Python or use a desktop EPUB tool on this machine.
