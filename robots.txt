@@ -1,4 +1,49 @@
 User-agent: *
 Allow: /
+Disallow: /bonus.html
+Disallow: /bonus-thanks.html
+Disallow: /bonus
+
+User-agent: GPTBot
+Allow: /
+Disallow: /bonus.html
+Disallow: /bonus-thanks.html
+Disallow: /bonus
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /bonus.html
+Disallow: /bonus-thanks.html
+Disallow: /bonus
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /bonus.html
+Disallow: /bonus-thanks.html
+Disallow: /bonus
+
+User-agent: Claude-User
+Allow: /
+Disallow: /bonus.html
+Disallow: /bonus-thanks.html
+Disallow: /bonus
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /bonus.html
+Disallow: /bonus-thanks.html
+Disallow: /bonus
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /bonus.html
+Disallow: /bonus-thanks.html
+Disallow: /bonus
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /bonus.html
+Disallow: /bonus-thanks.html
+Disallow: /bonus
 
 Sitemap: https://onlinedigitalfortress.com/sitemap.xml
