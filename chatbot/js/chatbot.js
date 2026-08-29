@@ -324,7 +324,9 @@
     wrap.appendChild(avatar);
     wrap.appendChild(bubble);
     body.appendChild(wrap);
-    body.scrollTop = body.scrollHeight;
+    requestAnimationFrame(function () {
+      body.scrollTop = body.scrollHeight;
+    });
     return bubble;
   }
 
@@ -423,8 +425,10 @@
 
     // Auto-grow textarea
     input.addEventListener("input", function () {
-      input.style.height = "auto";
-      input.style.height = Math.min(input.scrollHeight, 120) + "px";
+      requestAnimationFrame(function () {
+        input.style.height = "auto";
+        input.style.height = Math.min(input.scrollHeight, 120) + "px";
+      });
     });
 
     // Enter to send (Shift+Enter for newline)
